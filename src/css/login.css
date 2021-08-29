@@ -1,0 +1,108 @@
+.login-style-wem {
+  text-align:center;
+  background-color: rgba(230,216,173,1.0);
+  border-radius: solid;
+  border-radius: 5vh;
+  border-color: white;
+  border-style: solid;
+  color: rgba(114,188,212,1.0);
+}
+
+.login-style-main-wem {
+  width: 50%;
+  margin-left: 26%;
+  padding-top: 10vh;
+  
+}
+
+.login-style-01-wem {
+  font-size: 7vh;
+  font-weight: 900;
+  padding: 5vh;
+  
+}
+#float-label {
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  position: relative;
+  margin-left: 30%;
+}
+
+#float-label input {
+  width: 50%;
+  height: 30px;
+  padding: 2vh;
+  outline: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.0vh;
+}
+
+#float-label label {
+  font-size: 2.0vh;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 12px;
+  /*color: #999;*/
+  pointer-events: none;
+  position: absolute;
+  transform: translate(0, 26px) scale(1);
+  transform-origin: top left;
+  transition: all 0.2s ease-out;
+}
+
+#float-label:focus-within label {
+  transform: translate(0, 12px) scale(0.75);
+}
+
+#float-label .Active {
+  transform: translate(0, 12px) scale(0.75);
+}
+
+#float-label:valid {
+  transform: translate(0, 12px) scale(0.75);
+}
+
+#btnLogin {
+  width: 23%;
+  height: 8vh;
+  background-color: rgba(193,235,236,1.0);
+  font-size: 3vh;
+  border-color: #fff;
+  margin-bottom: 10vh;
+  color:rgba(255,255,255,1.0);
+}
+
+.login-img-password-wem {
+  position: relative;
+}
+
+.login-img-password-sub01-wem {
+  position: absolute;
+  top: 35%;
+  right: 30%;
+  width: 6vh;
+  display: flex;
+  margin-bottom: 1.4vh;
+}
+
+.login-style-bottom-wem {
+  text-align:center;
+}
+
+.custom-font-wem {
+  font-size: 5vh;
+  padding-right: 3vh;
+}
+
+.email-icon-fix-wem {
+  position: absolute;
+  top: 10%;
+
+}
+
+.email-label-style-wem {
+  margin-left: 10%; 
+}
